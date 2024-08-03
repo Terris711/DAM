@@ -1,0 +1,155 @@
+.navigation-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #e0e0e0;
+    width: 200px;
+    height: calc(100% - 1.75rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navbar-li {
+
+    display: flex;
+    gap: 10px;
+    font-size: medium;
+    align-items: center;
+    cursor: pointer;
+    overflow: auto;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+.navbar-li-accuracy {
+    display: flex;
+    gap: 10px;
+    font-size: medium;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.navbar-li:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+
+}
+
+.navbar-li-chosen {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.navbar-logo {
+    width: 100px;
+    border-radius: 100%;
+    margin: 2rem 0;
+}
+
+.profile-img {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.main-content-navbar {
+    margin-left: 200px;
+}
+
+.navbar-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.navbar-options-top {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navbar-options-bottom {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    color: #ffffff;
+    margin: 1rem 0;
+}
+
+.navbar-image-center {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+
+}
+
+.close-navbar-button {
+    width: 25px;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: transform 0.75s ease;
+}
+
+.navbar-user-detail {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 0;
+}
+
+.navbar-user-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.show-user-button {
+    width: 25px;
+}
+
+.navbar-user-givename {
+    font-size: medium;
+    font-weight: 400;
+}
+
+.navbar-user-firstname {
+    font-size: medium;
+    font-weight: 500;
+}
+
+.navbar-options-display {
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+}
+
+.navbar-accuracy {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    padding: 1rem 2rem;
+}
+
+.navbar-accuracy input {
+    height: 5px;
+    width: 150px;
+    background-color: red;
+}
+
+@media screen and (max-width: 600px) {
+    .navigation-bar {
+        display: none;
+    }
+
+    .main-content-navbar {
+        margin-left: 0;
+    }
+}

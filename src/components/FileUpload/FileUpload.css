@@ -1,0 +1,152 @@
+
+.highlight {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.upload-form-fileupload {
+    width: 900px;
+    position: relative;
+}
+
+
+
+
+
+.submit-button {
+
+    background-color: rgba(51, 51, 51, 0.05);
+    border-radius: 8px;
+    border-width: 0;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+
+.next-button {
+    position: absolute;
+    bottom: 10px;
+    right:10px;
+}
+.prev-button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.progress-wrapper {
+    position: relative;
+    height: 100%;
+
+}
+.upload-form {
+    width: 900px;
+    height: 550px;
+
+}
+
+.duplicate-modal {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 20px 28px rgba(234, 4, 4, 0.1);
+    padding: 40px;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    margin-left: -250px;
+    margin-top: 300px;
+}
+
+.ReactModal_Overlay {
+    background-color: rgba(0,0,0,0.75) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-button {
+    color: black;
+    border-radius: 100px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+.alert-location {
+    margin-right: 50px;
+    text-align: center;
+    padding-left: 40px;
+}
+.submit-area {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-align: end;
+}
+
+.duplicated-message {
+    font-weight: 500;
+    color: rgba(255, 0, 0, 0.852);
+    font-size: large;
+    margin-bottom: 5px;
+}
+.upload-session {
+    display:flex;
+    justify-content: center;
+}
+.upload-button-fileupload{
+    width: 32px;
+    height: 32px;
+}
+.upload-session-outer {
+    width: 70%;
+    background-color: #545454;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.upload-session-inner {
+    width: 70%;
+    height: 250px;
+    background-color: rgb(149, 149, 149);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upload-title {
+    font-weight: 700;
+    font-size: larger;
+    font-style: inherit; 
+    margin-bottom: 30px;
+}
+.upload-button-fu {
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: white;
+}

@@ -1,0 +1,32 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: start; /* Aligns the modal to the top */
+    padding-top: 5vh; /* Adds some space at the top */
+    overflow-y: auto; /* Enables scrolling on the overlay */
+    z-index: 20;
+}
+
+.content-modal{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10vh; /* Adds some space at the bottom */
+}
+
+.close-button-searchbar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    width: 25px;
+    color: rgb(255, 255, 255);
+    height: 25px;
+    cursor: pointer;
+}

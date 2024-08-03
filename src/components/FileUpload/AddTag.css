@@ -1,0 +1,76 @@
+.preview-image {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+}
+.preview-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-height: 300px;
+    overflow: auto;
+}
+.imgcount-text {
+    opacity: 50%;
+}
+.tag-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tag {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border-radius: 10px;
+    padding: 2px;
+    background-color: #ebebeb;
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tag-close {
+    width: 16px;;
+    margin-left: 8px;
+}
+
+.form-field {
+    font-weight: 500;
+}
+.field-input {
+    border: 1px solid;
+    width: 95%;
+    height: 45px;
+    font-size: 15px;
+    padding-left:10px;
+    border-radius: 10px;
+    margin-bottom: 5rem;
+}
+.field-input::placeholder {
+    font-size: 13px;
+}
+.field-area {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding-left: 10px;
+}
+.single-image-duplicated {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    font-size: small;
+    font-weight: 400;
+    color: white;
+}
+.image-shadow {
+    filter: brightness(65%);
+}
+.preview-holder {
+    position: relative;
+}
